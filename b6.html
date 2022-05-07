@@ -5,11 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link href="./style1.css" type="text/css" rel="style1" > -->
-    <link href="css/style1.css" type="text/css" rel="style2" \>
+    <!-- <link href="css/style1.css" type="text/css" rel="style2" \> -->
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .header-banner {
+            background-color: #efefef;
+            text-align: center;
+            color: #fff;
+        }
+        .d-flex {
+            display: flex;
+        }
+    </style>
     <title>Document</title>
 </head>
 <body>
     <!-- header -->
+    <div class="header-banner">
+        <div class="d-flex">
+            Free ship everywhere in HCM city
+        </div>
+        <div class="d-flex">
+            <a href="">
+                <svg viewBox="0 0 24 24" id="location-icon" xmlns="http://www.w3.org/2000/svg"><g transform="translate(4 1)" stroke="#000" stroke-width="2" fill="none" fill-rule="evenodd"><circle cx="8" cy="8" r="2"></circle><path d="M1.204 7.796c0-1.877.761-3.576 1.99-4.806a6.796 6.796 0 0110.486 8.535L8 20.178l-5.68-8.653a6.795 6.795 0 01-1.116-3.73z"></path></g></svg>
+                <span>Find a store</span>
+            </a>
+        </div>
+    </div>
     <header id="navbar" class="navbar">
             <a href="home">Home</a>
             <a href="welcome">Welcome</a>
