@@ -1,0 +1,7 @@
+.body {
+    display: flex;
+}
+.navbar {
+    display: flex;
+    color: red;
+}
