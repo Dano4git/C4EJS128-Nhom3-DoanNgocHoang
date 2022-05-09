@@ -6,17 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link href="./style1.css" type="text/css" rel="style1" > -->
     <!-- <link href="css/style1.css" type="text/css" rel="style2" \> -->
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
     <style>
         * {
-            box-sizing: border-box;
+            box-sizing: border-box;          
+        }
+        header {
+            height:120px;
+            background-color: #fff;
+        }
+        body {
+            line-height: 1.25;
+            font-family: "DM Sans", sans-serif;;
+        }
+        a {
+            text-decoration: none;
+        }
+        a:hover {
+            color: gold;
+        }
+        .navbar {
+            width:100%;
+        }
+        .font-size-15 {
+            font-size: 15px;
+            font-weight: 500;
         }
         .header-banner {
             background-color: #efefef;
             text-align: center;
-            color: #fff;
+            color: #000;
+            height: 28px;
         }
         .d-flex {
             display: flex;
+            align-items: center;
         }
         .justify-content-end {
             justify-content: flex-end;
@@ -31,32 +55,40 @@
             padding-left: 8px;
             padding-right: 8px;
         }
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
     </style>
     <title>Document</title>
 </head>
 <body>
     <!-- header -->
-    <div class="header-banner d-flex">
-        <div class="offset-left-3 width-3 pad-flex-8px">
-            Free ship everywhere in HCM city
+    <header id="header" class="header">
+        <div class="header-banner d-flex">
+            <div class="offset-left-3 width-3 pad-flex-8px">
+                <em>Free ship everywhere in HCM city</em>
+            </div>
+            <div class="justify-content-end width-3 d-flex pad-flex-8px">
+                <a href="">
+                    <svg height="15" width="15" viewBox="0 0 24 24" id="location-icon" xmlns="http://www.w3.org/2000/svg"><g transform="translate(4 1)" stroke="#000" stroke-width="2" fill="none" fill-rule="evenodd">
+                        <circle cx="8" cy="8" r="2"></circle>
+                        <path d="M1.204 7.796c0-1.877.761-3.576 1.99-4.806a6.796 6.796 0 0110.486 8.535L8 20.178l-5.68-8.653a6.795 6.795 0 01-1.116-3.73z">                       
+                        </path></g>
+                    </svg>
+                    <span>Find a store</span>
+                </a>
+            </div>
         </div>
-        <div class="justify-content-end width-3 d-flex pad-flex-8px">
-            <a href="">
-                <svg height="16" width="22" viewBox="0 0 24 24" id="location-icon" xmlns="http://www.w3.org/2000/svg"><g transform="translate(4 1)" stroke="#000" stroke-width="2" fill="none" fill-rule="evenodd">
-                    <circle cx="8" cy="8" r="2"></circle>
-                    <path d="M1.204 7.796c0-1.877.761-3.576 1.99-4.806a6.796 6.796 0 0110.486 8.535L8 20.178l-5.68-8.653a6.795 6.795 0 01-1.116-3.73z">                       
-                    </path></g>
-                </svg>
-                <span>Find a store</span>
-            </a>
+        <div id="navbar" class="navbar d-flex">
+                <a href="home">Home</a>
+                <a href="welcome">Welcome</a>
+                <a href="achievement">Achievement</a>
+                <a href="contact">Contact</a>
+                <a href="about">About</a>
         </div>
-    </div>
-    <header id="navbar" class="navbar">
-            <a href="home">Home</a>
-            <a href="welcome">Welcome</a>
-            <a href="achievement">Achievement</a>
-            <a href="contact">Contact</a>
-            <a href="about">About</a>
     </header>
     <!-- body -->
     <div class="body">
@@ -85,5 +117,34 @@
     <footer class="footer">
         <img src="">Github
     </footer>
+
+    <div class="content">
+        <h3>On Scroll Sticky Header</h3>
+        <p>The header will stick to the top when you reach its scroll position.</p>
+        <p>Scroll back up to remove the sticky effect.</p>
+        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+      </div>
+      
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("navbar");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
 </body>
 </html>
