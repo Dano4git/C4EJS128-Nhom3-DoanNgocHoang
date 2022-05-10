@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+      /*B1
+1. **Comparison Operators**
+    1. Tạo 2 biến là `a` và `b`, gán **10** cho a và **15** cho b. Kiểm tra xem nếu a lớn hơn b thì console trả về gì?
+    2. Kiểm tra a có bằng giá trị **“10”** hay không và trả về cửa sổ console kết quả.
+    3. Kiểm tra lại a có bằng giá trị **“10”** hay không, so sánh cả kiểu dữ liệu.
+    4. Cho `x` bằng **“5”** và `y` bằng **6**, so sánh giá trị **`x !== y`** và cho ra kết quả
+*/
+let a = 10;
+let b = 15;
+//1 ----
+console.log(a > b)
+
+//2 ----
+console.log(a == 10)
+//3 -----
+console.log(a === 10)
+//4 ----
+let x = 5;
+let y = 6;
+
+console.log(x !== y);
+
+/*
+2. **Coersion - Truthy & Falsy**
+    1. Cho đoạn code sau, chạy trên Console của Chrome, em có nhận xét gì về giá trị của b và c? Từ đó rút ra coercion là gì?
+    
+    ```jsx
+    var a = 10;
+    var b = Number(a);
+    var c = a * 1;
+    
+    a;
+    b;
+    c;
+    ```
+    
+    b. Khi một giá trị không phải boolean cần chuyển sang boolean gì chuyện gì xảy ra? v/d dưới sẽ log ra như nào?
+    
+    ```jsx
+    var a = 10;
+    var b = '';
+    
+    if (a) {
+       console.log('a is truthy');
+    }
+    
+    if (b) {
+       console.log('b is truthy');
+    }
+    ```
+    
+*/
+var u = 10;
+var i = Number(u);
+var o = u * 1;
+// ko hien ra gi ca
+u; 
+i;
+o;
+
+//------------------
+var ac = 10;
+var dc = ''; //string
+var pc = true;
+console.log(typeof(dc));
+console.log(typeof(ac));
+console.log(typeof(pc));
+
+console.log(typeof(dc) == "string");
+// neu dung toan tu ! thi kieu non boolean se thanh boolean
+if (ac) {
+    console.log('a is truthy');
+}
+
+if (dc) {
+    console.log('b is truthy');
+}
+/*
+3. **Logical Operators & Conditional**
+    1. Kết quả trả về true hay false?
+        
+        ```jsx
+        let a = "mindX";
+        let b = '';
+        
+        if (a || b) {
+        	console.log("hello")
+        }
+        ```
+        
+    2. Kết quả trả về true hay false?
+        
+        ```jsx
+        let a = "mindX";
+        let b = '';
+        
+        if (a && true && !b) {
+        	console.log("hello")
+        }
+        ```
+        
+    3. Tạo a = -1 và b = 1, tạo một câu điều kiện if sử dụng toán tử logic && để kết quả trả về true.
+    4. Tạo biến number, cho phép người dùng nhập number bằng lệnh prompt(). Viết chương trình kiểm tra xem liệu số người dùng nhập chia cho 3 có phải là số dư hay không. Nếu là số dư thì trả về console kết quả là **number không chia hết cho 3 và dư ...,** nếu chia hết thì trả về kết quả phép tính.
+    */
+    //1-------
+        //ket qua la true
+    let aa = "mindX";
+    let bb = '';
+    
+    if (aa || bb) {
+        console.log("hello");
+    }
+    //2-----------
+    // ket qua la true
+    let aaa = "mindX";
+        let bbb = '';
+        
+        if (aaa && true && !bbb) {
+        	console.log("hello");
+        }
+    //3-----------
+    let aaaa = -1;
+    let bbbb = 1;
+
+    if (aaaa&&bbbb) {
+        console.log("true")
+    }
+    //4---------
+    let number = prompt("Nhap 1 so bat ki:",'');
+    if (number%3) {
+        console.log(number + " khong chia het cho 3 va du " + number%3); 
+    } else {
+        console.log(number%3);
+    }
+    </script>
+</body>
+</html>
