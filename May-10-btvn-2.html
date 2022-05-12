@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+  //Tim so nguyen to
+	const number = parseInt(prompt("Enter a positive number: "));
+	let isPrime = true;
+    
+    if (number == 1 ) {
+    	alert("Khong tim thay so nguyen to");
+    } else if (number > 1) {
+    	for (let i=2; i<= number;i++) {
+        	if ( (number % i == 0) && (number != i) ) {
+            	isPrime = false;
+            }
+        }
+        if (isPrime == true) {
+        	alert(number + " la so nguyen to");
+        } else {
+        	alert(number + " khong phai la so nguyen to");
+        }
+    } else {
+    	alert("so nguyen to phai lon hon 1");
+    }
+    	
+    	
+</script>
+
+</body>
+</html>
