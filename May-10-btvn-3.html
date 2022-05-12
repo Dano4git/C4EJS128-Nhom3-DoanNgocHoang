@@ -25,8 +25,8 @@
     	thang31ngay = true;
     } else if ( thang > 0 && thang <= 12 && (thang == 4 || thang == 6 || thang == 9 || thang == 11) && ngay>=1 && ngay <=30) {
     	thang30ngay = true;    
-    } else if (thang == 2 && namNhuan == true) {
-		thang2N = true;
+    } else if (thang == 2 && ngay>= 1 && ngay <= 29 && namNhuan == true) {		
+        thang2N = true;
 	} else if (thang == 2 && ngay>= 1 && ngay <= 28) {
     	thang2 = true;
     } else {
