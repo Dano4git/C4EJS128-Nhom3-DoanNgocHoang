@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+	const ngay = parseInt(prompt("Ngay: "));
+    const thang = parseInt(prompt("Thang: "));
+    const nam = parseInt(prompt("Nam: "));
+	
+    let result;
+    let namNhuan = false;
+    let thang31ngay = false;
+    let thang30ngay = false;
+    let thang2 = false;
+    let thang2N = false;
+    let ngayHomSau = ngay;
+    let thangSau = thang;
+    let namSau = nam;
+    
+    let inValid = false;
+    if (nam % 4 == 0) {
+    	namNhuan = true;
+    }
+    if ( thang > 0 && thang <= 12 && (thang == 1 || thang == 3 || thang == 5 || thang == 7 || thang ==8 || thang == 10 || thang == 12 ) && ngay>=1 && ngay <=31) {
+    	thang31ngay = true;
+    } else if ( thang > 0 && thang <= 12 && (thang == 4 || thang == 6 || thang == 9 || thang == 11) && ngay>=1 && ngay <=30) {
+    	thang30ngay = true;    
+    } else if (thang == 2 && namNhuan == true) {
+		thang2N = true;
+	} else if (thang == 2 && ngay>= 1 && ngay <= 28) {
+    	thang2 = true;
+    } else {
+    	alert("Ngay " +ngay+ " Thang "  +thang+ " Nam " +nam + " khong ton tai");
+        inValid = true;
+    }
+    if (inValid == false) {
+     	ngayHomSau += 1;
+          if ( (thang31ngay == true && ngay == 31) || (thang2N == true && ngay == 29) || (thang30ngay == true && ngay ==30) || (thang2 ==true && ngay == 28) ) {
+        	ngayHomSau = 1;
+            thangSau += 1;
+            if (thangSau == 13) {
+            	namSau +=1;
+                thangSau =1;
+       		 }
+        }
+
+    alert("Ngay hom sau la ngay " +ngayHomSau+ " thang " +thangSau+ " nam " +namSau);
+    }	
+   
+    	
+</script>
+
+</body>
+</html>
