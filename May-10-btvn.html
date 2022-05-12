@@ -9,7 +9,7 @@
     let result;
    	
     if (!isNaN(number1) && !isNaN(number2)) {
-    
+    //if else
     	 if (operator == "+") {
          		result = number1 + number2;
 
@@ -23,9 +23,26 @@
               	result = number1 / number2;
 
           } else {
-              alert("Phep tinh " + operator + " khong ton tai, chi thuc hien +, -, *, /");
+              alert("Phep tinh *" + operator + "* khong ton tai, chi thuc hien +, -, *, /");
           } 
-		  
+/*switch case
+	    switch(operator) {
+		  case "+":
+		    result = number1 + number2;
+		    break;
+		  case "-":
+		    result = number1 - number2;
+		    break;
+		  case "*":
+		    result = number1 * number2;
+		    break;
+		  case "/":
+		    result = number1 / number2;
+		    break;
+		  default:
+		    alert("Phep tinh *" + operator + "* khong ton tai, chi thuc hien +, -, *, /");
+		} 
+*/
     } else {
     	
     	alert(number1 + " va" + number2 + "phai la so");
