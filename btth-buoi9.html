@@ -13,15 +13,21 @@
 <script>
 //BT: tạo hàm tính tổng số tiền đã chi tiêu, các tham số tổng số tiền và số tiền đã tiêu
 //BT: Viết một hàm pow (x, n) trả về x theo lũy thừa n. Hay nói cách khác, nhân x với chính nó n lần và trả về kết quả.
-function sumMoney(tienAn, tienNha, tienHoc, tienDiChoi, tienKhac) {
-    return  tienAn + tienNha +tienHoc + tienDiChoi + tienKhac;
+// function sumMoney(tienAn, tienNha, tienHoc, tienDiChoi, tienKhac) {
+//     return  tienAn + tienNha +tienHoc + tienDiChoi + tienKhac;
+// }
+function sumMoney(soTienTieu) {
+    let sum = 0;
+    for (let i=0; i< soTienTieu.length; i++) {
+        sum += soTienTieu[i];
+    }
+    return  sum;
 }
-
 function pow(x,n) {
     return x**n;
 }
 
-console.log(sumMoney(100000,200000,300000,100000,500000));
+console.log(sumMoney([100000,200000,300000,100000,500000]));
 console.log(pow(2,6));
 </script>
     
