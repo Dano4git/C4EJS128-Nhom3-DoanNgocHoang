@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+   
+
+        
+<script>
+	let myArray = ["Item1", "Item2" ,"Item3"]
+    
+    //create
+    	myArray[myArray.length] = "Item4";
+        myArray.push("Item5") ;
+        myArray.unshift( "Item6");
+    
+    console.log(myArray);
+    // read
+        myArray[2];
+    //update
+        myArray[1] = "Item1 [upd]";
+        
+    console.log(myArray);    
+    //Delete
+        myArray.splice(0,2); //remove 2 items from index 0
+    console.log(myArray);   
+</script>
+    
+</body>
+</html>
