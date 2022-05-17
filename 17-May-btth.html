@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Page</title>
+        <style>
+            #todo-list {
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <p id="p1"> Tap tap hero </p>
+        <!-- <input type="text" id="displayInput"></input> -->
+
+        <div id="todo-list" class="todo-list">
+            <p id="do1"> createElement </p>
+            <p id="do2"> updateElement </p>
+            <p id="do3"> readElement </p>
+            <p id="do4"> deleteElement </p>
+        </div>
+        <button id="delete-item" onclick="remChild()"> Delete </button>
+
+        <script>
+            //B1
+            const pEle = document.getElementById("p1");
+            console.log(pEle);
+            //B2
+            pEle.innerText = "Just do it";
+
+            const inputText = document.createElement("input");
+            inputText.type = "text";
+            inputText.id = "displayInput";
+            inputText.value ="change text here" 
+            document.body.appendChild(inputText);
+
+            inputText.style.background = "linear-gradient(156deg, rgba(2,0,36,1) 0%, rgba(58,9,121,1) 34%, rgba(0,212,255,1) 100%)";
+            inputText.style.display ="block";
+            inputText.style.color = "white"; 
+
+            //B3
+            
+            const todoList = document.getElementById("todo-list");
+            function remChild() {
+                 // while (todoList.hasChildNodes()) {
+                      todoList.removeChild(todoList.firstElementChild);
+                //    }
+                // for (let node = 0; node < todoList.childElementCount;node++) {
+                //     todoList.firstElementChild.remove();
+                //     console.log(todoList.firstElementChild + " deleted");
+                // }
+            }
+        </script>
+    </body>
+</html>
