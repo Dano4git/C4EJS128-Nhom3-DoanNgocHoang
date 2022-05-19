@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      /* * {
+  border: 1px solid black;
+} */
+.display {
+  border: 1px solid black;
+  align-content: center;
+  align-items: center; 
+}
+.display > div {
+  margin: 0px;
+  padding: 0 15px 0 15px;;
+}
+.input {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.input > * {
+  flex: 1 1 70px;
+  margin: 5px;
+  padding: 5px;    
+}
+.caculator {
+  display: flex;
+  align-items: center;
+  align-content: center;
+
+}
+.top {
+  width: 400px;
+  height: 300px;
+  border: 1px solid black;
+  padding: 20px;
+ /*  margin: 10px; */
+}
+    </style>
+    
+</head>
+  
+<body>
+  <div class="top" >
+  <div class="calculator">
+    <div class="display">
+      <div>
+        <p id="equation">_</p>
+      </div>
+      <div>
+        <p id="result">_</p>
+      </div>
+
+    </div>
+    <div  class="input">
+      
+      <button class="btn">7</button>
+      <button class="btn">8</button>
+      <button class="btn">9</button>
+      <button class="btn">+</button>
+      <button class="btn">4</button>
+      <button class="btn">5</button>
+      <button class="btn">6</button>
+      <button class="btn">-</button>
+      <button class="btn">1</button>
+      <button class="btn">2</button>
+      <button class="btn">3</button>
+      <button class="btn">*</button>
+      <button class="btn">0</button>
+      <button class="btn">.</button>
+      <button class="btn" onclick="displayResult()">=</button>
+      <button class="btn">/</button>
+      <button onclick="del()">DEL</button>
+      <button onclick="ac()">AC</button>
+      
+    </div>
+  </div>
+
+</div>
+
+<script>
+  let numbers = document.getElementsByClassName("btn");
+let resultEle = document.getElementById("result");
+let equationEle = document.getElementById("equation");
+let result = "";
+
+for(let number of numbers) {
+	number.addEventListener("click", function() {
+	    result += this.innerText;
+	    equationEle.innerText = result;
+	  });
+}
+function displayResult() {
+	let out = eval(result);
+  resultEle.innerText = out;
+  /* equationEle.innerText = result ; */
+  /* result = out */;
+}
+function del() {
+	resultEle.innerText = "_";
+  equationEle.innerText ="_";
+  result = "";
+}
+function ac() {
+	let out = equation.innerText;
+  result = out.substring(0, out.length-1);
+  equationEle.innerText = result;
+}
+
+</script>
+</body>
+</html>
