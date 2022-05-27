@@ -14,28 +14,31 @@ function init () {
 //     btnLogIn.addEventListener("click", (event) => {
 //     	event.preventDefault();
 //     })
-    btnLogIn.addEventListener("click", () => {  // submit can be use
-    	if (ipMail.value === "") {
-      	 messages.innerHTML = "Email must not be empty" ;
-         
-      	 insertAfter(ipPass, messages);
-         /* styleDiv[0].style.height = "290px"; */
-      } else if (!(/\@gmail\.com/i.test(ipMail.value))) {
-      	messages.innerHTML = "Email must be an email (@gmail.com)" ;
-        insertAfter(ipPass, messages);
-      	/* alert("Email must be an email (@gmail.com)"); */
-      } else if (ipPass.value.length <= 7) {      
-    		messages.innerHTML = "Password must be included more than 8 characters";
-        insertAfter(ipPass, messages);
-      } else {
-      	if (ipMail.value === "doanhoang@gmail.com" && ipPass.value === "123456789") {
-        	messages.innerHTML = "OK!";
-          insertAfter(ipPass, messages);
-        } else {
-        	messages.innerHTML = "Wrong email or password!";
-          insertAfter(ipPass, messages);
+    btnLogIn.forEach(el => {
+        
+        el.addEventListener("click", () => {  // submit can be use
+            if (ipMail.value === "") {
+             messages.innerHTML = "Email must not be empty" ;
+
+             insertAfter(ipPass, messages);
+             /* styleDiv[0].style.height = "290px"; */
+          } else if (!(/\@gmail\.com/i.test(ipMail.value))) {
+            messages.innerHTML = "Email must be an email (@gmail.com)" ;
+            insertAfter(ipPass, messages);
+            /* alert("Email must be an email (@gmail.com)"); */
+          } else if (ipPass.value.length <= 7) {      
+                messages.innerHTML = "Password must be included more than 8 characters";
+            insertAfter(ipPass, messages);
+          } else {
+            if (ipMail.value === "doanhoang@gmail.com" && ipPass.value === "123456789") {
+                messages.innerHTML = "OK!";
+              insertAfter(ipPass, messages);
+            } else {
+                messages.innerHTML = "Wrong email or password!";
+              insertAfter(ipPass, messages);
+            }
+          }
         }
-      }
  /*      alert(ipMail.value === "doanhoang@gmail.com");
       alert(ipPass.value === "123456789"); */
     });
