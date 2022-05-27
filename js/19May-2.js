@@ -11,9 +11,9 @@ function init () {
     messages.style.color = "red";
     messages.style.fontSize = "12px";
     // Code ở đây
-    btnLogIn.addEventListener("click", (event) => {
-    	event.preventDefault();
-    })
+//     btnLogIn.addEventListener("click", (event) => {
+//     	event.preventDefault();
+//     })
     btnLogIn.addEventListener("click", () => {  // submit can be use
     	if (ipMail.value === "") {
       	 messages.innerHTML = "Email must not be empty" ;
