@@ -299,8 +299,8 @@ let tourPlaces = [
     },
 ];
 
-var testObject = { 'one': 1, 'two': 2, 'three': 3 };
-localStorage.setItem("tourPlaces", JSON.stringify(testObject));
+//var testObject = { 'one': 1, 'two': 2, 'three': 3 };
+localStorage.setItem("tourPlaces", JSON.stringify(tourPlaces));
 var retrievedObject = localStorage.getItem('tourPlaces');
 
 console.log('retrievedObject: ', JSON.parse(retrievedObject));
