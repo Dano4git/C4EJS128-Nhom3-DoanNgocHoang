@@ -138,7 +138,7 @@ let tourPlaces = [
             "Tất cả mọi thứ hòa quyện trong ánh nắng vàng, bầu trời xanh tươi nên thơ tạo thành khung cảnh hữu tình khiến cho bất kỳ ai cũng xao xuyến. Từ đỉnh núi bạn sẽ phóng tầm mắt xuống đồng ruộng lúa xanh mướt cùng căn nhà nhỏ bé mộc mạc đậm chất yên bình.",
             "Lên đến đỉnh núi Trầm là thời điểm bạn nên thả hồn mình vào trong cơn gió mát mẻ, lặng nghe tiếng chim ríu rít sống động mà ở thành phố đông đúc không cảm nhận được. Núi Trầm chuyển về đêm còn khiến cho tâm hồn con người cảm thấy an yên hơn, quang cảnh đắm chìm cùng ánh trăng vàng, mọi thứ đều yên tĩnh. Đây là thời điểm hội bạn bè đốt lửa trại, tâm sự cùng nhau, nhâm nhi chén rượu cay cay, cùng ngân nga hát du dương hay chơi trò chơi đồng đội."
         ],
-        tagName: ["bac", "phongcanhdep", "nui","camtrai","chua"],
+        tagName: ["bac", "phongcanhdep", "nui", "camtrai", "chua"],
         linkAvatar: "https://media.cungphuot.info/w1024/Uploaded/neg_sfjpywe/2018_05_09/Nui_Tram.jpg",
         linkImage: [
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHvRlKB4sf5wIOahJ9ZSm3TpQrXZS1-T5InQ&usqp=CAU",
@@ -157,7 +157,7 @@ let tourPlaces = [
             "Mùa Thu: Từ tháng 9 cho đến tháng 11 là thời gian bung nở rực rỡ nhất của hoa dã quỳ vàng cùng những đồng hoa tam giác mạch, hoa cải trắng muốt, đẹp như tranh vẽ. Ngoài ra, bạn còn được chiêm ngưỡng sắc cam rực rỡ của những trái hồng khi vào mùa thu hoạch.",
             "Mùa Đông: Từ tháng 12 cho đến hết tháng 1, giai đoạn này Mộc Châu gây ấn tượng với khách du lịch bởi những thung lũng hoa mơ, hoa mận bung nở trắng xóa, hay những cánh đồng hoa cải ẩn hiện dưới cái lạnh của tiết trời xứ núi, phủ kín cả những sườn đồi.",
         ],
-        tagName: ["bac", "phongcanhdep", "caonguyen","ruongbacthang"],
+        tagName: ["bac", "phongcanhdep", "caonguyen", "ruongbacthang"],
         linkAvatar: "https://static.mservice.io/blogscontents/momo-upload-api-210611095837-637590023172503584.jpg",
         linkImage: [
             "https://media.cungphuot.info/w1024/Uploaded/neg_sfjpywe/2018_05_09/Moc_Chau.jpg",
@@ -191,7 +191,7 @@ let tourPlaces = [
             "Nếu là người ưa cảm giác thanh tịnh, bạn cũng có thể ghé qua khám phá thử 2 ngôi chùa ở Bình Ba. Chùa được xây lẫn với nhà dân, quy mô không lớn lắm, tuy nhiên cũng là địa điểm tâm linh đáng để thử phải không nào.",
             "Một điểm thu hút du khách cực lớn ở Bình Ba chính là ẩm thực. Đừng lo không biết  ăn gì ở Bình Ba  nhé, phải xem xem sức chứa của bao tử bạn đến đâu nào. Ăn sáng ở Bình Ba có khá nhiều lựa chọn và giá rất dạt dẻ như: bánh căn, bún cá, bánh xèo, chè,…Còn bữa trưa và tối thì nhất định không thể nào bỏ qua hải sản ở đây được rồi. Mực lá ở đây dày và ngọt, nhum thì nhiều vô kể, sò huyết, cá đủ loại ngọt thịt,… được chế biến thành nhiều món như nướng, hấp, làm gỏi. Đặc biệt, tôm hùm là món bá chủ nơi đây. Những con tôm hùm giá rẻ Bình Ba luôn sẵn sàng để tiếp đón bạn."
         ],
-        tagName: ["trung", "phongcanhdep", "dao","baibien"],
+        tagName: ["trung", "phongcanhdep", "dao", "baibien"],
         linkAvatar: "https://saigonstartravel.com/wp-content/uploads/2018/09/binh-ba-h1.jpg",
         linkImage: [
             "https://saigonstartravel.com/wp-content/uploads/2018/09/bai-nom-binh-ba.jpg",
@@ -209,7 +209,7 @@ let tourPlaces = [
             "Mùa khô ở vườn quốc gia Pù Mát từ tháng 12 đến khoảng tháng 3 năm sau. Lúc này tại đây có chịu tác động của gió mùa Đông Mắc nên nền nhiệt khá thấp, khoảng dưới 20 độ C. Ngoài ra, nếu bạn có dịp du lịch vườn quốc gia Pù Mát vào khoảng tháng 3 thì sẽ có cơ hội được ngắm nhìn mưa xuân. Khung cảnh tại đây vô cùng tuyệt đẹp, rất phù hợp với những chuyến đi ngắn ngày, du lịch phượt cùng bạn bè. ",
             "Mùa hè từ tháng 6 đến tháng 8 hằng năm được xem là thời điểm lý tưởng nhất để đến tham quan vườn quốc gia Pù Mát Nghệ An. Lúc này, nền nhiệt khá mát mẻ, đến với địa điểm này, bạn sẽ được chứng kiến hình ảnh đàn cá Mát màu bạc bơi lội giữa dòng sông Giăng tuyệt đẹp. Ngoài ra, ở đây còn có rất nhiều món ăn ngon giúp cho bạn có thể thoải mái thưởng thức. "
         ],
-        tagName: ["bac", "phongcanhdep", "thiennhien","dongvathiem"],
+        tagName: ["bac", "phongcanhdep", "thiennhien", "dongvathiem"],
         linkAvatar: "https://statics.vinpearl.com/vuon-quoc-gia-pu-mat-1_1624593201.jpg",
         linkImage: [
             "https://statics.vinpearl.com/vuon-quoc-gia-pu-mat-3_1624606007.jpg",
@@ -231,7 +231,7 @@ let tourPlaces = [
             "Hoa ngô đồng ở đây nở rộ nhất vào cuối hạ - đầu thu (khoảng tháng 7 - tháng 8). Vào mùa hoa nở rộ, đi dọc theo còn đường Bãi Làng, Bãi Xếp, Bãi Hương, du khách sẽ được thỏa sức ngắm nhìn hoa ngô đồng bừng nở sắc hoa đỏ thắm. Bất chấp mưa gió khắc nghiệt, những cây ngô đồng vẫn mạnh mẽ vươn lên như ý chí kiên cường của người dân miền Trung trước nắng mưa, thử thách.",
             "Điều vô cùng hấp dẫn ở Cù Lao Chàm là có rất nhiều hoạt động giải trí thú vị như: Lặn ngắm rạn san hô, đi bộ dưới biển ngắm các loài sinh vật biển, cắm trại ở Cù Lao Chàm, câu cá cùng ngư dân trên đảo, khám phá khu rừng nguyên sinh."
         ],
-        tagName: ["bac", "phongcanhdep", "baibien","rung","camtrai","chua","dao"],
+        tagName: ["bac", "phongcanhdep", "baibien", "rung", "camtrai", "chua", "dao"],
         linkAvatar: "https://statics.vinpearl.com/cu-lao-cham-2_1627621572.jpg",
         linkImage: [
             "https://statics.vinpearl.com/cu-lao-cham-4_1627622024.jpg",
@@ -253,7 +253,7 @@ let tourPlaces = [
             "Đảo Thanh Lân (cách Cô Tô 20 phút đi tàu gỗ nhỏ), vắng vẻ thanh bình. Bãi biển đẹp hoang sơ nhẹ nhàng với những cung đường uốn lượn quanh đảo, những cánh rừng nguyên sinh bám theo những bãi cát dài, nước trong và sạch, hải sản tươi ngon. Thanh Lân hiện có 3 bãi tắm đẹp là : bãi Ba Châu, bãi Hải quân và bãi C67.",
             "Đảo Cô Tô Con cách Cô Tô Lớn chừng 1km. Là một đảo thuần quân sự, Cô Tô con không có dân cư sinh sống. Rừng Cô Tô Con sở hữu nhiều loại động vật, gỗ quý, nhiều chim muông và hoang sơ hoàn toàn. Với diện tích nhỏ, bạn có thể đi xuyên rừng Cô Tô Con để đến các bãi biển trên đảo."
         ],
-        tagName: ["bac", "baibien","dao"],
+        tagName: ["bac", "baibien", "dao"],
         linkAvatar: "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/07/du-lich-co-to.jpg",
         linkImage: [
             "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/07/anh4-1.jpg",
@@ -271,7 +271,7 @@ let tourPlaces = [
             "Toàn cảnh hồ như một bức tranh thủy mặc làm say lòng những du khách tới nơi đây. Đôi bờ của dòng sông là những vách núi đá vôi dựng đứng với bao điều kỳ lạ trong những câu chuyện cổ tích kể về biến cố của thiên nhiên để tạo ra hồ Ba Bể. Một số điểm tham quan nổi tiếng gần Hồ Ba Bể: Thác Đầu Đẳng, Động Puông, Đền An Mã, Ao Tiên. ",
             "Một trong những điều tạo nên vẻ đẹp của thác Bản Giốc là ở phần thác chính, thác không chảy thẳng 1 dải từ trên xuống mà có những mô đất mấp mô, chia tầng như cầu thang, khiến nước sông Quây Sơn chảy qua đây chia tách thành nhiều dải, tạo thành một mảng trắng xóa giữa đất trời, xen giữa là màu xanh của cây lá. Một trải nghiệm vô cùng thú vị dành cho khách du lịch khi đến với nơi đây là ngồi trên bè tre của người dân để ngắm cảnh xung quanh với giá khoảng 50.000 đồng một người. Bên cạnh đó, bạn cũng có thể lựa chọn tham quan một số địa điểm nổi tiếng xung quanh thác Bản Giốc như:  chùa Phật Tích Trúc Lâm Bản Giốc, Động Ngườm Ngao, Khi di tích cách mạng Pác Bó  suối Lê-nin, Làng rèn Phúc Sen.",
         ],
-        tagName: ["bac","ho","thac","hangdong"],
+        tagName: ["bac", "ho", "thac", "hangdong"],
         linkAvatar: "https://vietsensetravel.com/view/at_thac-ban-gioc--anh-2_8f3e8ba95c6c0b4ac1b7f10aa99fa512.jpg",
         linkImage: [
             "https://vietsensetravel.com/view/at_ho-ba-be--anh-1_5f8db38e0a61a9f99ee80afc1b372af7.jpg",
@@ -289,7 +289,7 @@ let tourPlaces = [
             "Một trong những trải nghiệm cực tuyệt tại bãi biển Cây Mến đó chính là hòa mình trong làn nước mát lạnh và thỏa thích tắm biển. Nước biển tại đây rất sạch và có màu xanh trong đẹp mắt. Những bãi cát mịn màng và trải dài cùng những rặng dừa nghiêng nghiêng tạo nên khung cảnh tuyệt đẹp để bạn chiêm ngưỡng vẻ đẹp của biển cả.",
             "Sau khi tắm biển, bạn có thể ghé vào các ngôi nhà tranh cạnh biển để nghỉ ngơi, uống nước. Đừng quên thưởng thức món đặc sản ở bãi Cây Mến - dừa tươi ngon ngất ngây vừa được hái từ trên cây xuống. Dừa tại đây là loại dừa chỉ - loại dừa có vị ngọt thanh, rất mát và thơm ngon khó có nơi nào sánh bằng. ",
         ],
-        tagName: ["nam","baibien"],
+        tagName: ["nam", "baibien"],
         linkAvatar: "https://cdn3.ivivu.com/2016/03/20-bai-bien-hoang-so-cua-viet-nam-khong-the-khong-di-ivivu-3.jpg",
         linkImage: [
             "https://statics.vinpearl.com/bai-cay-men-01_1635246167.jpg",
@@ -305,10 +305,10 @@ var retrievedObject = JSON.parse(localStorage.getItem('tourPlaces'));
 
 console.log('retrievedObject: ', JSON.parse(retrievedObject));
 function init() {
-for(let i of retrievedObject) {
-    document.getElementById("tour-places").innerHTML +=
-    "<div class='swiper-slide'> <div class='box'> <img src='"+i.linkImage[0]+"' alt=''> <div class='content'> <h3> <i class='fas fa-map-marker-alt'></i> "+i.name+" </h3> <p>"+i.introduce[0]+"</p> <div class='stars'> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> </div> <div class='price'> 1.500.000 vnd <span>2.000.000 vnd</span> </div> <a href='#' class='btn'>Đặt ngay</a> </div> </div> </div>";
-};
+    for (let i of retrievedObject) {
+        document.getElementById("tour-places").innerHTML +=
+            "<div class='swiper-slide'> <div class='box'> <img src='" + i.linkImage[0] + "' alt=''> <div class='content'> <h3> <i class='fas fa-map-marker-alt'></i> " + i.name + " </h3> <p>" + i.introduce[0] + "</p> <div class='stars'> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> </div> <div class='price'> 1.500.000 vnd <span>2.000.000 vnd</span> </div> <a href='#' class='btn'>Đặt ngay</a> </div> </div> </div>";
+    };
     // "<div class='swiper-slide'>
     //     <div class='box'>
     //         <img src='"+i.linkImage[0]+"' alt="">
@@ -327,6 +327,5 @@ for(let i of retrievedObject) {
     //         </div>
     //     </div>
     // </div>";
-}
 }
 init();
