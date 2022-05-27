@@ -307,24 +307,26 @@ console.log('retrievedObject: ', JSON.parse(retrievedObject));
 function init() {
 for(let i of retrievedObject) {
     document.getElementById("tour-places").innerHTML +=
-    "<div class="swiper-slide">
-        <div class="box">
-            <img src='"+i.linkImage[0]+"' alt="">
-            <div class="content">
-                <h3> <i class="fas fa-map-marker-alt"></i> "+i.name+" </h3>
-                <p>"+i.introduce[0]+"</p>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <div class="price"> 1.500.000 vnd <span>2.000.000 vnd</span> </div>
-                <a href="#" class="btn">Đặt ngay</a>
-            </div>
-        </div>
-    </div>";
+    "<div class='swiper-slide'> <div class='box'> <img src='"+i.linkImage[0]+"' alt=''> <div class='content'> <h3> <i class='fas fa-map-marker-alt'></i> "+i.name+" </h3> <p>"+i.introduce[0]+"</p> <div class='stars'> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> </div> <div class='price'> 1.500.000 vnd <span>2.000.000 vnd</span> </div> <a href='#' class='btn'>Đặt ngay</a> </div> </div> </div>";
+};
+    // "<div class='swiper-slide'>
+    //     <div class='box'>
+    //         <img src='"+i.linkImage[0]+"' alt="">
+    //         <div class='content'>
+    //             <h3> <i class='fas fa-map-marker-alt'></i> "+i.name+" </h3>
+    //             <p>"+i.introduce[0]+"</p>
+    //             <div class='stars'>
+    //                 <i class='fas fa-star'></i>
+    //                 <i class='fas fa-star'></i>
+    //                 <i class='fas fa-star'></i>
+    //                 <i class='fas fa-star'></i>
+    //                 <i class='fas fa-star'></i>
+    //             </div>
+    //             <div class='price'> 1.500.000 vnd <span>2.000.000 vnd</span> </div>
+    //             <a href='#' class='btn'>Đặt ngay</a>
+    //         </div>
+    //     </div>
+    // </div>";
 }
 }
 init();
